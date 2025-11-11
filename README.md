@@ -130,6 +130,9 @@ Dengan fitur dark mode, desain modern, dan kemampuan update dataset, proyek ini 
 
 ## 👨‍💻 Pengembang
 
-Dikembangkan oleh **[njwnabilah](https://github.com/njwnabilah)**  
+Dikembangkan oleh 
+**1. Lidya Feronica   G1A023009
+2. Lio Kusnata        G1A023013
+3. Najwa Nabilah W     G1A023065**  
 Universitas Bengkulu  
-Sebagai proyek inovatif untuk sistem bimbingan akademik digital berbasis chatbot.
+
