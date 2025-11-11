@@ -1,0 +1,150 @@
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === Layout utama === */
+.signup-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* === Bagian kiri (form) === */
+.form-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 10px 60px;
+  overflow-y: auto;
+}
+
+.form-content {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+/* === Logo === */
+.logo {
+  width: 85px; 
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+  object-fit: contain;
+}
+
+/* === Title === */
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* === Label & Input === */
+.form-label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #0023c4;
+  box-shadow: 0 0 3px rgba(0, 35, 196, 0.4);
+}
+
+/* === Checkbox dan link === */
+.form-check-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-check-label .link {
+  color: #0023c4;
+  text-decoration: none;
+}
+
+.form-check-label .link:hover {
+  text-decoration: underline;
+}
+
+/* === Tombol signup === */
+.btn-signup {
+  background-color: #0023c4;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-signup:hover {
+  background-color: #0017a0;
+}
+
+/* === Link bawah (login) === */
+.text-center a.link {
+  color: #0023c4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.text-center a.link:hover {
+  text-decoration: underline;
+}
+
+/* === Bagian kanan (gambar) === */
+.image-section {
+  flex: 1;
+  position: relative;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.campus-img {
+  width: 100%;
+  min-height: 115vh; /* sedikit lebih tinggi agar tetap penuh saat scroll */
+  object-fit: cover;
+  object-position: 40%;
+}
+
+/* === Responsif (HP/tablet) === */
+@media (max-width: 900px) {
+  .signup-container {
+    flex-direction: column;
+  }
+
+  .form-section {
+    flex: none;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .image-section {
+    flex: none;
+    width: 100%;
+  }
+
+  .campus-img {
+    height: 300px;
+  }
+}
